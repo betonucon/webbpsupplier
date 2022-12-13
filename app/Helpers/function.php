@@ -44,6 +44,9 @@ function ubah_bulan($bul){
         return '0'.$bul;
     }
 }
+function url_foto(){
+    return 'https://admin.bintangpermensupplier.com/public/file';
+}
 function parsing_validator($url){
     $content=utf8_encode($url);
     $data = json_decode($content,true);

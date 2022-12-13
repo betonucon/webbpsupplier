@@ -38,7 +38,7 @@
               <div class="portfolio-img"><img src="{{url_plug()}}/assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""></div>
               <div class="portfolio-info">
                 <p>{{$o->nama_barang}}</p>
-                <a href="{{url_plug()}}/assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="{{url_foto()}}/{{$o->foto}}" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
                 <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
               </div>
             </div>
