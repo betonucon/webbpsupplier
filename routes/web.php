@@ -11,14 +11,9 @@ use App\Events\ReloadCreated;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/testevent', function () {
-    ReloadCreated::dispatch('sasaaass');
-    
-    echo 'test broadcast event sangcahaya.id';
-});
+
 Auth::routes();
 
+Route::get('/', 'HomeController@index')->name('home');
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/produk', 'ProdukController@index');
